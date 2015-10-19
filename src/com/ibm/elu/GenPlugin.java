@@ -56,8 +56,6 @@ public class GenPlugin extends HttpServlet {
 		String installRoot = request.getParameter("InstallRoot");
 		String serverName = request.getParameter("ServerName");
         ServletOutputStream output = response.getOutputStream();
-		
-		System.out.println(installRoot + " " + serverName);
 
     	response.addHeader("Access-Control-Allow-Origin", "*");
 		
