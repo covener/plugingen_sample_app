@@ -1,6 +1,16 @@
 About
 ====
-This is a sample liberty app which can be used to generate a plugin configuration. Note that it can only be used from the local system where liberty is running; it will deny all requests that come from remote IPs. Load the app on the liberty server for which you want to generate a plugin configuration.
+This is a sample liberty app which can be used to generate a plugin configuration. Note that it can only be used from the local system where liberty is running; it will deny all requests that come from remote IPs.
+
+Building
+---
+Use maven to build a war file:
+
+    mvn package
+
+Or import the project into eclipse and build.
+
+Load the war file on the liberty server for which you want to generate a plugin configuration.
 
 URLs
 ----
