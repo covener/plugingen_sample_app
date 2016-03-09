@@ -13,7 +13,7 @@
  *
  */
 
-package com.ibm.elu;
+package java.net.wasdev;
 
 import java.io.IOException;
 

@@ -13,7 +13,7 @@
  *
  */
 
-package com.ibm.elu;
+package java.net.wasdev;
 
 import javax.servlet.http.HttpServletRequest;
 
